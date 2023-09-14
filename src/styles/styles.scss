@@ -6,4 +6,8 @@
 /* Importing Bootstrap SCSS file. */
 @import "bootstrap/scss/bootstrap";
 
+/* Variables */
 @import "./variables";
+
+/* App Styles */
+@import "./app.styles";
