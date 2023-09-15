@@ -6,6 +6,30 @@
   background-color: var(--card-bg-color);
 }
 
+.card-container {
+  height: 52vh;
+  transition: 0.2s ease-out;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+}
+
+.btn-task {
+  font-size: 1rem;
+  border-radius: 1.5rem;
+  color: var(--primary-text-color);
+  background: var(--gradient-base);
+  background: linear-gradient(
+    160deg,
+    var(--gradient-1) 0%,
+    var(--gradient-2) 100%
+  );
+  transition: 0.2s ease-out;
+  box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 15px 0px;
+  user-select: none;
+  padding-inline: 1.5rem;
+  padding-block: 0.5rem;
+}
+
 @font-face {
   font-family: "fa-regular";
   src: url("./../assets/fonts/fa-regular-400.ttf") format("truetype");

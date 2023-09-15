@@ -1,9 +1,4 @@
-import {
-  Component,
-  ContentChildren,
-  ElementRef,
-  QueryList,
-} from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-card',
@@ -11,8 +6,5 @@ import {
   styleUrls: ['./card.component.scss'],
 })
 export class CardComponent {
-  @ContentChildren('mainView') public mainViewRef?: QueryList<ElementRef>;
-  @ContentChildren('sideBar') public sideBarRef?: QueryList<ElementRef>;
-
   constructor() {}
 }

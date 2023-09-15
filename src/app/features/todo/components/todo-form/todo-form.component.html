@@ -1,39 +1,58 @@
-<app-card>
-  <ng-container mainView>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <form>
-            <div class="form-group mb-4">
-              <label class="text-slate-50 mb-2">Add Task</label>
-              <input type="text" class="form-control" />
-            </div>
-            <div class="form-group mb-4">
-              <label class="text-slate-50 mb-2">Add Notes</label>
-              <textarea
-                class="form-control"
-                rows="5"
-                placeholder="Type here..."
-              ></textarea>
-            </div>
-
-            <div class="row mb-4">
-              <div class="col form-group">
-                <label class="text-slate-50 mb-2">Project</label>
-                <input type="text" class="form-control" placeholder="Project" />
+<div class="container card-bg-color p-6 rounded-3xl card-container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <form>
+              <div class="form-group mb-4">
+                <label class="text-slate-50 mb-2">Add Task</label>
+                <input type="text" class="form-control" />
               </div>
-              <div class="col form-group">
-                <label class="text-slate-50 mb-2">Date</label>
-                <input
-                  type="date"
+              <div class="form-group mb-4">
+                <label class="text-slate-50 mb-2">Add Notes</label>
+                <textarea
                   class="form-control"
-                  placeholder="Last name"
-                />
+                  rows="5"
+                  placeholder="Type here..."
+                ></textarea>
               </div>
-            </div>
-          </form>
+
+              <div class="row mb-4">
+                <div class="col form-group">
+                  <label class="text-slate-50 mb-2">Project</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Project"
+                  />
+                </div>
+                <div class="col form-group">
+                  <label class="text-slate-50 mb-2">Date</label>
+                  <input
+                    type="date"
+                    class="form-control"
+                    placeholder="Last name"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="flex flex-row items-center justify-start col-6">
+            <img
+              src="assets/images/back-button-form.svg"
+              alt=""
+              class="cursor-pointer"
+            />
+          </div>
+
+          <div class="flex flex-row items-center justify-end col-6">
+            <button class="btn btn-task">Add Task</button>
+          </div>
         </div>
       </div>
     </div>
-  </ng-container>
-</app-card>
+  </div>
+</div>
