@@ -1,3 +1,17 @@
 .page-container-color {
   background-color: var(--bg-color);
 }
+
+.card-bg-color {
+  background-color: var(--card-bg-color);
+}
+
+@font-face {
+  font-family: "fa-regular";
+  src: url("./../assets/fonts/fa-regular-400.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "fa-brand";
+  src: url("./../assets/fonts/fa-brands-400.ttf") format("truetype");
+}
