@@ -4,3 +4,22 @@ label {
   font-size: 1.25rem;
   transition: all 0.2s ease-out;
 }
+
+input,
+textarea {
+  color: var(--primary-text-color);
+  background-color: var(--component);
+  border-radius: 0.625rem;
+  border: none;
+  resize: none;
+
+  &::placeholder {
+    color: var(--secondary-text-color);
+  }
+
+  &:focus {
+    background-color: var(--component);
+    color: white;
+    box-shadow: none;
+  }
+}
