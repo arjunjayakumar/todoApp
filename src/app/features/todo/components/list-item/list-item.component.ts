@@ -5,4 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './list-item.component.html',
   styleUrls: ['./list-item.component.scss'],
 })
-export class ListItemComponent {}
+export class ListItemComponent {
+  public taskCompletion: boolean = false;
+  public onHover: boolean = false;
+}

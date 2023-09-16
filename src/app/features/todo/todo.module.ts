@@ -7,6 +7,7 @@ import { SharedModule } from 'src/app/shared/shared.module';
 import { NgbDatepickerModule } from '@ng-bootstrap/ng-bootstrap';
 import { TodoListComponent } from './components/todo-list/todo-list.component';
 import { ListItemComponent } from './components/list-item/list-item.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [TodoFormComponent, TodoListComponent, ListItemComponent],
@@ -15,6 +16,8 @@ import { ListItemComponent } from './components/list-item/list-item.component';
     TodoRoutingModule,
     CoreModule,
     SharedModule,
+    FormsModule,
+
     NgbDatepickerModule,
   ],
 })

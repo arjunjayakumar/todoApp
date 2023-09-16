@@ -9,3 +9,12 @@
     stroke: transparent;
   }
 }
+
+.line-through {
+  color: var(--secondary-text-color);
+}
+
+.completed-task {
+  background-color: transparent;
+  box-shadow: none;
+}
