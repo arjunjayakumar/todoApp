@@ -31,6 +31,32 @@
   padding-block: 0.5rem;
 }
 
+.task {
+  padding-block: 0.45rem;
+  user-select: none;
+  z-index: 0;
+  border-radius: 0.625rem;
+  display: flex;
+  padding-right: 0.625rem;
+  background-color: var(--component);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 4px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  transition: 0.2s ease-out;
+}
+
+.task-title {
+  border: none;
+  line-height: 2.125rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+  user-select: none;
+  pointer-events: none;
+  color: var(--primary-text-color);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 @font-face {
   font-family: "fa-regular";
   src: url("./../assets/fonts/fa-regular-400.ttf") format("truetype");

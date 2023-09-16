@@ -1,0 +1,11 @@
+.form-check-input:checked {
+  background-color: var(--secondary-text-color);
+  border-color: var(--secondary-text-color);
+  box-shadow: none;
+}
+
+.form-check-input:checked[type="checkbox"] {
+  svg {
+    stroke: transparent;
+  }
+}
