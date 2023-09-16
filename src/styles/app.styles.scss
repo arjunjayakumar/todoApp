@@ -57,6 +57,11 @@
   text-overflow: ellipsis;
 }
 
+.section-header {
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
 @font-face {
   font-family: "fa-regular";
   src: url("./../assets/fonts/fa-regular-400.ttf") format("truetype");
